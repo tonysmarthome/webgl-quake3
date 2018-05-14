@@ -1,0 +1,4 @@
+C:\Windows\System32\inetsrv\appcmd
+
+appcmd set config /section:staticContent /+[fileExtension='.bsp',mimeType='application/octet-stream']
+appcmd set config /section:staticContent /+[fileExtension='.shader',mimeType='text/plain']
